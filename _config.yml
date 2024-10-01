@@ -1,2 +1,4 @@
-theme: jekyll-theme-minimal
-header: false
+theme: minima
+title: ""
+description: ""
+show_downloads: false   # Hide download links for repo (default is true)
