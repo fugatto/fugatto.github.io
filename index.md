@@ -155,12 +155,12 @@ This section provides a collection of examples to showcase Fugatto's ability to 
 <table>
    <tbody>
       <tr>
-      <tr>
          <td style="text-align: left; font-style: italic;">Fugatto</td>
          <td style="text-align: left"><audio controls style="width: 150px;"><source src="54334_Csharp_4_minor_9_7_down_down_down_up_0.wav" type="audio/wav"></audio></td>         
          <td style="text-align: left"><audio controls style="width: 150px;"><source src="3207_C_4_major_7_4_up_down_down_down_0.wav" type="audio/wav"></audio></td>
          <td style="text-align: left"><audio controls style="width: 150px;"><source src="14514_C_4_minor_4_11_up_up_down_up_0.wav" type="audio/wav"></audio></td>           
          <td style="text-align: left"><audio controls style="width: 150px;"><source src="26540_C_4_blues_3_6_down_down_up_up_0.wav" type="audio/wav"></audio></td>    
+      </tr>        
       <tr>
          <td style="text-align: left">Audio Context</td>
          <td style="text-align: left"><audio controls style="width: 150px;"><source src="54334_transposed.wav" type="audio/wav"></audio></td>
@@ -169,4 +169,4 @@ This section provides a collection of examples to showcase Fugatto's ability to 
          <td style="text-align: left"><audio controls style="width: 150px;"><source src="26540_transposed.wav" type="audio/wav"></audio></td>
       </tr>
    </tbody>   
-</table>      
+</table> 
