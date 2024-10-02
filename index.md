@@ -118,12 +118,12 @@ This section provides a collection of sound snippets that are unlikely to exist 
       <tr>
          <td style="text-align: left"><audio controls style="width: 150px;"><source src="Synthesize a cello shouting with anger and a cello screaming.wav" type="audio/wav"></audio></td>      
          <td style="text-align: left">Synthesize a cello shouting with anger and a cello screaming.</td>
-         <td style="text-align: left">Cellos do not shout in anger nor scream.</td>         
+         <td style="text-align: left">Aside from Xenakis' music, cellos do not shout in anger nor scream.</td>         
       </tr>
       <tr>
          <td style="text-align: left"><audio controls style="width: 150px;"><source src="Synthesize a female voice barking and a female voice meowing.wav" type="audio/wav"></audio></td>    
           <td style="text-align: left">Synthesize a female voice barking.</td>
-         <td style="text-align: left">People, normally, do not bark while.</td>          
+         <td style="text-align: left">People, normally, do not bark</td>          
       </tr>     
       <tr>
          <td style="text-align: left"><audio controls style="width: 150px;"><source src="Synthesize a flute barking and a flute meowing.wav" type="audio/wav"></audio></td>      
@@ -133,12 +133,12 @@ This section provides a collection of sound snippets that are unlikely to exist 
       <tr>
          <td style="text-align: left"><audio controls style="width: 150px;"><source src="Synthesize a saxophone barking and a saxophone meowing (1).wav" type="audio/wav"></audio></td>
          <td style="text-align: left">Synthesize a saxophone barking and a saxophone meowing.</td>
-         <td style="text-align: left">Saxophones do not bark nor meow.</td>         
+         <td style="text-align: left">Aside from Free Jazz, Saxophones do not bark nor meow.</td>         
       </tr>
       <tr>
          <td style="text-align: left"><audio controls style="width: 150px;"><source src="Synthesize a saxophone barking and a saxophone meowing (0).wav" type="audio/wav"></audio></td>
          <td style="text-align: left">Synthesize a saxophone barking and a saxophone meowing.</td>
-         <td style="text-align: left">Saxophones do not bark nor meow.</td>         
+         <td style="text-align: left">Aside from "Interstellar Spaces", Saxophones do not bark nor meow.</td>         
       </tr>      
      <tr>
          <td style="text-align: left"><audio controls style="width: 150px;"><source src="Violin melody and baby laugh.wav" type="audio/wav"></audio></td>     
