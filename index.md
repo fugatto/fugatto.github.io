@@ -275,9 +275,9 @@ This section provides a collection of sound pieces that were created by applying
    </thead>
    <tbody>
       <tr>
-         <td style="text-align: left"><audio controls style="width: 150px;"><source src="Temporal_Compositionality_('synthesize/ birds chirping', 'synthesize/ Rain')_0_.wav" type="audio/wav"></audio></td>
-         <td style="text-align: left"><audio controls style="width: 150px;"><source src="Temporal_Compositionality_('synthesize/ Engine', 'synthesize/ Ukulele')_0_.wav" type="audio/wav"></audio></td>
-         <td style="text-align: left"><audio controls style="width: 150px;"><source src="Temporal_Compositionality_('synthesize/ Storm', 'synthesize/ Thunder')_0_.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="Temporal_Compositionality_synthesize_birds_chirping_synthesize_Rain_0.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="Temporal_Compositionality_synthesize_Engine_synthesize_Ukulele_0.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="Temporal_Compositionality_synthesize_Storm_synthesize_Thunder_0.wav" type="audio/wav"></audio></td>
       </tr>       
    </tbody>
 </table>
