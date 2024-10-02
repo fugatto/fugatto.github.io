@@ -170,3 +170,114 @@ This section provides a collection of examples to showcase Fugatto's ability to 
       </tr>
    </tbody>   
 </table> 
+
+### ComposableART (Composable Audio Representation Transformations)
+ComposableART is a technique for compositonal synthesis where we extend the Classifier Free Guidance framework to support the combination of vector fields across
+multiple instructions, multiple mel-frame indices and multiple models.
+
+This section provides a collection of sound pieces that were created by applying ComposableART to Fugatto model and each of them highlights one of special features brought by ComposableART:
+
+**1. Weighted Combination **<br>
+[Text-To-Audio Synthesis (TTA)]
+
+<table>
+   <thead>
+      <tr>
+         <th style="text-align: left; font-style: italic;">Weighted Combination Equal Weights on Birds and Dogs</th>
+         <th style="text-align: left; font-style: italic;">Weighted Combination Birds Emphasized</th>
+         <th style="text-align: left; font-style: italic;">Weighted Combination Dogs Emphasized</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="WeightedCombination_composed_equal_birds0p2_dogs0p2.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="WeightedCombination_composed_equal_birds2p0_dogs0p2.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="WeightedCombination_composed_equal_birds0p2_dogs2p0.wav" type="audio/wav"></audio></td>
+      </tr>       
+   </tbody>
+</table>
+
+
+**2. Negation **<br>
+[Text-To-Speech (TTS)]
+
+<table>
+   <thead>
+      <tr>
+         <th style="text-align: left; font-style: italic;">Negation of 'male' with Fugatto Baseline using 'Not'</th>
+         <th style="text-align: left; font-style: italic;">Positive weight on 'male' with ComposableART</th>
+         <th style="text-align: left; font-style: italic;">Negative weight on 'male' with ComposableART</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="Negation_Baseline_Non_Male_Voice.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="Negation_ComposableART_male_0p2.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="Negation_ComposableART_Negative.wav" type="audio/wav"></audio></td>
+      </tr>       
+   </tbody>
+</table>
+
+
+
+**3. Task Composition **<br>
+[Text-To-Audio Synthesis (TTA), Text-To-Speech (TTS)]
+
+<table>
+   <thead>
+      <tr>
+         <th style="text-align: left; font-style: italic;">Task Composition with audio event 'birds chirping' and music synthesis</th>
+         <th style="text-align: left; font-style: italic;">Task Composition with audio event 'dogs barking', 'birds chirping' and music synthesis</th>
+         <th style="text-align: left; font-style: italic;">Task Composition with audio event 'birds chirping' and text to speech(TTS)</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="TaskComposition_audio_event_birds_with_music.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="TaskComposition_audio_events_birds_with_dogs_with_music.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="TaskComposition_audio_events_birds_with_TTS.wav" type="audio/wav"></audio></td>
+      </tr>       
+   </tbody>
+</table>
+
+
+
+**4. Model Composition with 2 different Fugatto models, one trained on Text-To-Audio Synthesis (TTA) and other on Text-To-Speech (TTS) **<br>
+[Text-To-Audio Synthesis (TTA), Text-To-Speech (TTS)]
+
+<table>
+   <thead>
+      <tr>
+         <th style="text-align: left; font-style: italic;">Model Composition with audio event 'birds chirping' and ambient text to speech in background</th>
+         <th style="text-align: left; font-style: italic;">Model Composition with audio event 'dogs barking' and text to speech</th>
+         <th style="text-align: left; font-style: italic;">Model Composition with audio event 'water flowing' and text to speech</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="ModelComposition_birds_chirping_with_ambient_background_speech.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="ModelComposition_dogs_barking_with_TTS.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="ModelComposition_water_flowing_with_TTS.wav" type="audio/wav"></audio></td>
+      </tr>       
+   </tbody>
+</table>
+
+**5. Temporal Composition **<br>
+[Text-To-Audio Synthesis (TTA), Text-To-Speech (TTS)]
+
+<table>
+   <thead>
+      <tr>
+         <th style="text-align: left; font-style: italic;">Temporal Composition simulting a 'rainy' night turining to a 'chirpy' dawn.</th>
+         <th style="text-align: left; font-style: italic;">Temporal Composition simulting 'Ukelele' melody turining to brass metalic 'Engine' tragedy.</th>
+         <th style="text-align: left; font-style: italic;">Temporal Composition simulting a 'thunderous' stormy fading into a 'rainy' storm.</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="Temporal_Compositionality_('synthesize/ birds chirping', 'synthesize/ Rain')_0_.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="Temporal_Compositionality_('synthesize/ Engine', 'synthesize/ Ukulele')_0_.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="Temporal_Compositionality_('synthesize/ Storm', 'synthesize/ Thunder')_0_.wav" type="audio/wav"></audio></td>
+      </tr>       
+   </tbody>
+</table>
