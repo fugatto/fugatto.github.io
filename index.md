@@ -177,7 +177,7 @@ multiple instructions, multiple mel-frame indices and multiple models.
 
 This section provides a collection of sound pieces that were created by applying ComposableART to Fugatto model and each of them highlights one of special features brought by ComposableART:
 
-**1. Weighted Combination **<br>
+**1. Weighted Combination**<br>
 [Text-To-Audio Synthesis (TTA)]
 
 <table>
@@ -198,7 +198,7 @@ This section provides a collection of sound pieces that were created by applying
 </table>
 
 
-**2. Negation **<br>
+**2. Negation**<br>
 [Text-To-Speech (TTS)]
 
 <table>
@@ -220,7 +220,7 @@ This section provides a collection of sound pieces that were created by applying
 
 
 
-**3. Task Composition **<br>
+**3. Task Composition**<br>
 [Text-To-Audio Synthesis (TTA), Text-To-Speech (TTS)]
 
 <table>
@@ -242,7 +242,7 @@ This section provides a collection of sound pieces that were created by applying
 
 
 
-**4. Model Composition with 2 different Fugatto models, one trained on Text-To-Audio Synthesis (TTA) and other on Text-To-Speech (TTS) **<br>
+**4. Model Composition with 2 different Fugatto models, one trained on Text-To-Audio Synthesis (TTA) and other on Text-To-Speech (TTS)**<br>
 [Text-To-Audio Synthesis (TTA), Text-To-Speech (TTS)]
 
 <table>
@@ -262,7 +262,7 @@ This section provides a collection of sound pieces that were created by applying
    </tbody>
 </table>
 
-**5. Temporal Composition **<br>
+**5. Temporal Composition**<br>
 [Text-To-Audio Synthesis (TTA), Text-To-Speech (TTS)]
 
 <table>
