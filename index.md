@@ -268,9 +268,9 @@ This section provides a collection of sound pieces that were created by applying
 <table>
    <thead>
       <tr>
-         <th style="text-align: left; font-style: italic;">Temporal Composition simulting a 'rainy' night turining to a 'chirpy' dawn.</th>
-         <th style="text-align: left; font-style: italic;">Temporal Composition simulting 'Ukelele' melody turining to brass metalic 'Engine' tragedy.</th>
-         <th style="text-align: left; font-style: italic;">Temporal Composition simulting a 'thunderous' stormy fading into a 'rainy' storm.</th>
+         <th style="text-align: left; font-style: italic;">Temporal Composition simulating a 'rainy' night turining to a 'chirpy' dawn.</th>
+         <th style="text-align: left; font-style: italic;">Temporal Composition simulating 'Ukelele' melody turining to brass metalic 'Engine' tragedy.</th>
+         <th style="text-align: left; font-style: italic;">Temporal Composition simulating a 'thunderous' stormy fading into a 'rainy' storm.</th>
       </tr>
    </thead>
    <tbody>
