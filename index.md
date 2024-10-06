@@ -173,7 +173,7 @@ This section provides a collection of examples to showcase Fugatto's ability to 
 
 [ComposableART and Text-To-Audio(TTA)]
 
-This sections provides a collection of emergent sounds achieved with our proposed ComposeableART method, that enables the interpolation, in the latent space, bbetween instructions.
+This sections provides a collection of emergent sounds achieved with our proposed ComposeableART method, that enables the interpolation, in the latent space, between instructions.
 <table style="width: 100%; table-layout: fixed;">
    <thead>
       <tr>
