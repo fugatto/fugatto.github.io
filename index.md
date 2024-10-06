@@ -149,7 +149,7 @@ This section provides a collection of sound snippets that are unlikely to exist 
 </table>
 
 
-[MIDI-2-Audio (TTA)]
+[MIDI-2-Audio (Audio-Transformation)]
 
 This section provides a collection of examples to showcase Fugatto's ability to convert from MIDI audio to natural Audio. We emphasize that this is zero-shot behavior and emergent capability, given that Fugatto has never seen monophonic melodies during MIDI2Audio training, with the average number of stems present in training this task being 8.
 <table>
@@ -170,6 +170,66 @@ This section provides a collection of examples to showcase Fugatto's ability to 
       </tr>
    </tbody>   
 </table> 
+
+[ComposableART and Text-To-Audio(TTA)]
+
+This sections provides a collection of emergent sounds achieved with our proposed ComposeableART method, that enables the interpolation, in the latent space, bbetween instructions.
+<table>
+   <thead>
+      <tr>
+         <th style="text-align: left; font-style: italic;">Weights/Events</th>
+         <td style="text-align: left">Cymbals<br>and<br>Flute</td>
+         <td style="text-align: left">Accelerating, revving, vroom<br>and<br>Acoustic Guitar</td>
+         <td style="text-align: left">Speech<br>and<br>Water</td>
+         <td style="text-align: left">Acoustic Guitar<br>and<br>Water</td>
+      </tr>         
+   </thead>
+   <tbody>
+      <tr>
+         <td style="text-align: left">w1=1.0<br>w2=0.0</td>
+         <td style="text-align: left"><audio controls style="width: 100px;"><source src="Cymbals and Flute w1-1p0w2-0p0.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 100px;"><source src="Accelerating, revving, vroom and Acoustic Guitar w1-1p0w2-0p0.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 100px;"><source src="speech and water w1-1p0w2-0p0.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 100px;"><source src="acoustic guitar and water w1-1p0w2-0p0.wav" type="audio/wav"></audio></td>      
+      </tr>
+      <tr>
+         <td style="text-align: left">w1=0.75<br>w2=0.25</td>
+         <td style="text-align: left"><audio controls style="width: 100px;"><source src="Cymbals and Flute w1-0p75w2-0p25.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 100px;"><source src="Accelerating, revving, vroom and Acoustic Guitar w1-0p75w2-0p25.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 100px;"><source src="speech and water w1-0p75w2-0p25.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 100px;"><source src="acoustic guitar and water w1-0p75w2-0p25.wav" type="audio/wav"></audio></td>   
+      </tr>
+      <tr>
+         <td style="text-align: left">w1=0.5<br>w2=0.5</td>         
+         <td style="text-align: left"><audio controls style="width: 100px;"><source src="Cymbals and Flute w1-0p5w2-0p5.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 100px;"><source src="Accelerating, revving, vroom and Acoustic Guitar w1-0p5w2-0p5.wav" type="audio/wav"></audio></td>            
+         <td style="text-align: left"><audio controls style="width: 100px;"><source src="speech and water w1-0p5w2-0p5.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 100px;"><source src="acoustic guitar and water w1-0p5w2-0p5.wav" type="audio/wav"></audio></td>   
+      </tr>
+      <tr>
+         <td style="text-align: left">w1=0.25<br>w2=0.75</td>         
+         <td style="text-align: left"><audio controls style="width: 100px;"><source src="Cymbals and Flute w1-0p25w2-0p75.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 100px;"><source src="Accelerating, revving, vroom and Acoustic Guitar w1-0p25w2-0p75.wav" type="audio/wav"></audio></td>            
+         <td style="text-align: left"><audio controls style="width: 100px;"><source src="speech and water w1-0p25w2-0p75.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 100px;"><source src="acoustic guitar and water w1-0p25w2-0p75.wav" type="audio/wav"></audio></td>   
+      </tr>
+      <tr>
+         <td style="text-align: left">w1=0.0<br>w2=1.0</td>
+         <td style="text-align: left"><audio controls style="width: 100px;"><source src="Cymbals and Flute w1-0p0w2-1p0.wav" type="audio/wav"></audio></td>         
+         <td style="text-align: left"><audio controls style="width: 100px;"><source src="Accelerating, revving, vroom and Acoustic Guitar w1-0p0w2-1p0.wav" type="audio/wav"></audio></td>         
+         <td style="text-align: left"><audio controls style="width: 100px;"><source src="speech and water w1-0p0w2-1p0.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 100px;"><source src="acoustic guitar and water w1-0p0w2-1p0.wav" type="audio/wav"></audio></td>        
+      </tr>
+      <tr>
+         <td style="text-align: left">Emergence from combination?</td>
+         <td style="text-align: left">From cymbals to <font color="fuchsia">gamelan</font> to flute.</td>
+         <td style="text-align: left">From revving to <font color="fuchsia">electric guitar with distortion</font> to acoustic guitar.</td>
+         <td style="text-align: left">From speech to <font color="fuchsia">underwater speech</font> to water.</td>
+         <td style="text-align: left">From acoustic guitar to <font color="fuchsia">underwater acoustic guitar</font> to water.</td>
+      </tr>      
+   </tbody>
+</table>
+
 
 ### ComposableART (Composable Audio Representation Transformations)
 ComposableART is a technique for compositonal synthesis where we extend the Classifier Free Guidance framework to support the combination of vector fields across
@@ -281,3 +341,9 @@ This section provides a collection of sound pieces that were created by applying
       </tr>       
    </tbody>
 </table>
+
+**Plots with CLAP Scores for the Weighted Combination of events with ComposableART**<br>
+
+<div style="overflow: scroll; width: 100%; height: 500px; border: 1px solid #ccc;">
+  <img src="composable_guidance_weighted_combination.png" style="transform: scale(3); transform-origin: top left;" alt="Zoomed Image">
+</div>
