@@ -24,7 +24,7 @@
 _Fugatto_ is a framework for audio synthesis and transformation given text instructions and optional audio inputs. The framework includes the Fugatto model itself, the generative model, a dataset creation technique that exploits relationships between audio and text, and method for composing instructions flexibily called ComposeableART.
 
 ### Creative Examples
-This section provides a collection of sound pieces that were created by first using Fugatto to create and modify assets, then using a digital audio workstaion to combine them.
+This section provides a collection of sound pieces that were created by first using Fugatto to create and modify assets, then using a digital audio workstation to combine them.
 
 **1. Rap Song**<br>
 [Singing Voice Synthesis (SVS), Text-To-Speech Synthesis (TTS), Text-To-Audio Synthesis (TTA)]
