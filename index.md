@@ -257,6 +257,12 @@ This section provides a collection of sound pieces that were created by applying
    </tbody>
 </table>
 
+**Plots with CLAP Scores for the Weighted Combination of events with ComposableART**<br>
+
+<div style="overflow: scroll; width: 100%; height: 500px; border: 1px solid #ccc;">
+  <img src="composable_guidance_weighted_combination.png" style="transform: scale(3); transform-origin: top left;" alt="Zoomed Image">
+</div>
+
 
 **2. Negation**<br>
 [Text-To-Speech (TTS)]
@@ -341,9 +347,3 @@ This section provides a collection of sound pieces that were created by applying
       </tr>       
    </tbody>
 </table>
-
-**Plots with CLAP Scores for the Weighted Combination of events with ComposableART**<br>
-
-<div style="overflow: scroll; width: 100%; height: 500px; border: 1px solid #ccc;">
-  <img src="composable_guidance_weighted_combination.png" style="transform: scale(3); transform-origin: top left;" alt="Zoomed Image">
-</div>
