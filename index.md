@@ -261,7 +261,7 @@ This section provides a collection of sound pieces that were created by applying
 
 <div style="overflow: scroll; width: 100%; height: 500px; border: 1px solid #ccc;">
   <img src="composable_guidance_weighted_combination.png" style="transform: scale(3); transform-origin: top left;" alt="Zoomed Image">
-</div>
+</div><br>
 
 
 **2. Negation**<br>
