@@ -152,7 +152,7 @@ This section provides a collection of sound snippets that are unlikely to exist 
 [MIDI-2-Audio (Audio-Transformation)]
 
 This section provides a collection of examples to showcase Fugatto's ability to convert from MIDI audio to natural Audio. We emphasize that this is zero-shot behavior and emergent capability, given that Fugatto has never seen monophonic melodies during MIDI2Audio training, with the average number of stems present in training this task being 8.
-<table style="width: 100%; table-layout: fixed;">
+<table>
    <tbody>
       <tr>
          <td style="text-align: left; font-style: italic;">Fugatto</td>
