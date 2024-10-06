@@ -29,7 +29,7 @@ This section provides a collection of sound pieces that were created by first us
 **1. Rap Song**<br>
 [Singing Voice Synthesis (SVS), Text-To-Speech Synthesis (TTS), Text-To-Audio Synthesis (TTA)]
 
-<table>
+<table style="width: 100%; table-layout: fixed;">
    <thead>
       <tr>
          <th style="text-align: left; font-style: italic;">Fugatto</th>
@@ -47,7 +47,7 @@ This section provides a collection of sound pieces that were created by first us
 **2. Introduction for a Movie and _Recitativo Accompagnato_**<br>
 [Singing Voice Synthesis (SVS), Text-To-Speech Synthesis (TTS), Text-To-Audio Synthesis (TTA)]
 
-<table>
+<table style="width: 100%; table-layout: fixed;">
    <thead>
       <tr>
          <th style="text-align: left; font-style: italic;">Fugatto</th>
@@ -66,7 +66,7 @@ This section provides a collection of sound pieces that were created by first us
 
 This section provides a collection of sound snippets that are unlikely to exist in the real world and in the training data. Assuming the text instructions describe the task, and that _Fugatto_ has not seen such instructions during training, _Fugatto_ is able to execute these tasks without explicit supervision.
 
-<table>
+<table style="width: 100%; table-layout: fixed;">
    <thead>
       <tr>
          <th style="text-align: left; font-style: italic;">Fugatto</th>
@@ -152,7 +152,7 @@ This section provides a collection of sound snippets that are unlikely to exist 
 [MIDI-2-Audio (Audio-Transformation)]
 
 This section provides a collection of examples to showcase Fugatto's ability to convert from MIDI audio to natural Audio. We emphasize that this is zero-shot behavior and emergent capability, given that Fugatto has never seen monophonic melodies during MIDI2Audio training, with the average number of stems present in training this task being 8.
-<table>
+<table style="width: 100%; table-layout: fixed;">
    <tbody>
       <tr>
          <td style="text-align: left; font-style: italic;">Fugatto</td>
@@ -174,7 +174,7 @@ This section provides a collection of examples to showcase Fugatto's ability to 
 [ComposableART and Text-To-Audio(TTA)]
 
 This sections provides a collection of emergent sounds achieved with our proposed ComposeableART method, that enables the interpolation, in the latent space, bbetween instructions.
-<table>
+<table style="width: 100%; table-layout: fixed;">
    <thead>
       <tr>
          <th style="text-align: left; font-style: italic;">Weights/Events</th>
@@ -240,7 +240,7 @@ This section provides a collection of sound pieces that were created by applying
 **1. Weighted Combination**<br>
 [Text-To-Audio Synthesis (TTA)]
 
-<table>
+<table style="width: 100%; table-layout: fixed;">
    <thead>
       <tr>
          <th style="text-align: left; font-style: italic;">Weighted Combination Equal Weights on Birds and Dogs</th>
@@ -261,7 +261,7 @@ This section provides a collection of sound pieces that were created by applying
 **2. Negation**<br>
 [Text-To-Speech (TTS)]
 
-<table>
+<table style="width: 100%; table-layout: fixed;">
    <thead>
       <tr>
          <th style="text-align: left; font-style: italic;">Negation of 'male' with Fugatto Baseline using 'Not'</th>
@@ -283,7 +283,7 @@ This section provides a collection of sound pieces that were created by applying
 **3. Task Composition**<br>
 [Text-To-Audio Synthesis (TTA), Text-To-Speech (TTS)]
 
-<table>
+<table style="width: 100%; table-layout: fixed;">
    <thead>
       <tr>
          <th style="text-align: left; font-style: italic;">Task Composition with audio event 'birds chirping' and music synthesis</th>
@@ -305,7 +305,7 @@ This section provides a collection of sound pieces that were created by applying
 **4. Model Composition with 2 different Fugatto models, one trained on Text-To-Audio Synthesis (TTA) and other on Text-To-Speech (TTS)**<br>
 [Text-To-Audio Synthesis (TTA), Text-To-Speech (TTS)]
 
-<table>
+<table style="width: 100%; table-layout: fixed;">
    <thead>
       <tr>
          <th style="text-align: left; font-style: italic;">Model Composition with audio event 'birds chirping' and ambient text to speech in background</th>
@@ -325,7 +325,7 @@ This section provides a collection of sound pieces that were created by applying
 **5. Temporal Composition**<br>
 [Text-To-Audio Synthesis (TTA), Text-To-Speech (TTS)]
 
-<table>
+<table style="width: 100%; table-layout: fixed;">
    <thead>
       <tr>
          <th style="text-align: left; font-style: italic;">Temporal Composition simulating a 'rainy' night turining to a 'chirpy' dawn.</th>
