@@ -23,7 +23,7 @@
 
 _Fugatto_ is a framework for audio synthesis and transformation given text instructions and optional audio inputs. The framework includes the Fugatto model itself, the generative model, a dataset creation technique that exploits relationships between audio and text, and method for composing instructions flexibily called ComposeableART.
 
-### Creative Examples
+## Creative Examples
 This section provides a collection of sound pieces that were created by first using Fugatto to create and modify assets, then using a digital audio workstation to combine them.
 
 **1. Rap Song**<br>
@@ -60,7 +60,7 @@ This section provides a collection of sound pieces that were created by first us
    </tbody>
 </table>
 
-### Emergent Sounds and Capabilities
+## Emergent Sounds and Capabilities
 
 [Text-To-Audio Synthesis (TTA)]
 
@@ -231,7 +231,7 @@ This sections provides a collection of emergent sounds achieved with our propose
 </table>
 
 
-### ComposableART (Composable Audio Representation Transformations)
+## ComposableART (Composable Audio Representation Transformations)
 ComposableART is a technique for compositonal synthesis where we extend the Classifier Free Guidance framework to support the combination of vector fields across
 multiple instructions, multiple mel-frame indices and multiple models.
 
@@ -258,6 +258,8 @@ This section provides a collection of sound pieces that were created by applying
 </table>
 
 **Plots with CLAP Scores for the Weighted Combination of events with ComposableART**<br>
+
+Each plot shows the CLAP score for each instruction, or event, given the weight of that instruction.
 
 <div style="overflow: scroll; width: 100%; height: 500px; border: 1px solid #ccc;">
   <img src="composable_guidance_weighted_combination.png" style="transform: scale(3); transform-origin: top left;" alt="Zoomed Image">
