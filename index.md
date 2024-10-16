@@ -342,8 +342,8 @@ Each plot shows the CLAP score for each instruction, or event, given the weight 
 <table style="width: 100%; table-layout: fixed;">
    <thead>
       <tr>
-         <th style="text-align: left; font-style: italic;">Temporal Composition simulating a 'rainy' night turining to a 'chirpy' dawn.</th>
-         <th style="text-align: left; font-style: italic;">Temporal Composition simulating 'Ukelele' melody turining to brass metalic 'Engine' tragedy.</th>
+         <th style="text-align: left; font-style: italic;">Temporal Composition simulating a 'rainy' night transitioning into a 'chirpy' dawn.</th>
+         <th style="text-align: left; font-style: italic;">Temporal Composition simulating 'Ukelele' melody transitioning into brass metalic 'Engine' tragedy.</th>
          <th style="text-align: left; font-style: italic;">Temporal Composition simulating a 'thunderous' stormy fading into a 'rainy' storm.</th>
       </tr>
    </thead>
