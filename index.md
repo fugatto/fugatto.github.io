@@ -30,7 +30,7 @@ We envision _Fugatto_ as a tool for creatives, empowering them to quickly bring 
 
 
 ## Creative Examples
-This section provides a collection of sound pieces that were created by first using Fugatto to create and modify assets, then using a digital audio workstation to combine them.
+This section provides a collection of sound pieces that were created by first using _Fugatto_ to create and modify assets, then using a digital audio workstation to combine them.
 
 **1. Rap Song**<br>
 [Singing Voice Synthesis (SVS), Text-To-Speech Synthesis (TTS), Text-To-Audio Synthesis (TTA)]
@@ -157,7 +157,7 @@ This section provides a collection of sound snippets that are unlikely to exist 
 
 [MIDI-2-Audio (Audio-Transformation)]
 
-This section provides a collection of examples to showcase Fugatto's ability to convert from MIDI audio to natural Audio. We emphasize that this is zero-shot behavior and emergent capability, given that Fugatto has never seen monophonic melodies during MIDI2Audio training, with the average number of stems present in training this task being 8.
+This section provides a collection of examples to showcase _Fugatto_'s ability to convert from MIDI audio to natural Audio. We emphasize that this is zero-shot behavior and emergent capability, given that Fugatto has never seen monophonic melodies during MIDI2Audio training, with the average number of stems present in training this task being 8.
 <table>
    <tbody>
       <tr>
@@ -241,7 +241,7 @@ This sections provides a collection of emergent sounds achieved with our propose
 ComposableART is a technique for compositonal synthesis where we extend the Classifier Free Guidance framework to support the combination of vector fields across
 multiple instructions, multiple mel-frame indices and multiple models.
 
-This section provides a collection of sound pieces that were created by applying ComposableART to Fugatto model and each of them highlights one of special features brought by ComposableART:
+This section provides a collection of sound pieces that were created by applying ComposableART to _Fugatto_ model and each of them highlights one of special features brought by ComposableART:
 
 **1. Weighted Combination**<br>
 [Text-To-Audio Synthesis (TTA)]
@@ -278,7 +278,7 @@ Each plot shows the CLAP score for each instruction, or event, given the weight 
 <table style="width: 100%; table-layout: fixed;">
    <thead>
       <tr>
-         <th style="text-align: left; font-style: italic;">Negation of 'male' with Fugatto Baseline using 'Not'</th>
+         <th style="text-align: left; font-style: italic;">Negation of 'male' with _Fugatto_ Baseline using 'Not'</th>
          <th style="text-align: left; font-style: italic;">Positive weight on 'male' with ComposableART</th>
          <th style="text-align: left; font-style: italic;">Negative weight on 'male' with ComposableART</th>
       </tr>
@@ -316,7 +316,7 @@ Each plot shows the CLAP score for each instruction, or event, given the weight 
 
 
 
-**4. Model Composition with 2 different Fugatto models, one trained on Text-To-Audio Synthesis (TTA) and other on Text-To-Speech (TTS)**<br>
+**4. Model Composition with 2 different _Fugatto_ models, one trained on Text-To-Audio Synthesis (TTA) and other on Text-To-Speech (TTS)**<br>
 [Text-To-Audio Synthesis (TTA), Text-To-Speech (TTS)]
 
 <table style="width: 100%; table-layout: fixed;">
