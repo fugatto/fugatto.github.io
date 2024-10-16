@@ -23,7 +23,7 @@
 
 _Fugatto_ is a framework for audio synthesis and transformation given text instructions and optional audio inputs. The framework includes the Fugatto model itself, the generative model, a dataset creation technique that exploits relationships between audio and text, and a method for controlling and composing instructions, including from different models, called ComposeableART.
 
-We envision _Fugatto_ as a tool for creatives, empowering creatives to quickly bring their sonic fantasies and unheard sounds to life—an instrument for imagination, not a replacement for creativity.
+We envision _Fugatto_ as a tool for creatives, empowering them to quickly bring their sonic fantasies and unheard sounds to life—an instrument for imagination, not a replacement for creativity.
 
 
 [Paper](FUGATTO_ICLR_2025.pdf)
