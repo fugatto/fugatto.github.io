@@ -66,7 +66,7 @@ This section provides a collection of sound pieces that were created by first us
    </tbody>
 </table>
 
-## Emergent Sounds and Capabilities
+## Emergent Sounds
 
 [Text-To-Audio Synthesis (TTA)]
 
@@ -154,29 +154,6 @@ This section provides a collection of sound snippets that are unlikely to exist 
    </tbody>
 </table>
 
-
-[MIDI-2-Audio (Audio-Transformation)]
-
-This section provides a collection of examples to showcase _Fugatto_'s ability to convert from MIDI audio to natural Audio. We emphasize that this is zero-shot behavior and emergent capability, given that Fugatto has never seen monophonic melodies during MIDI2Audio training, with the average number of stems present in training this task being 8.
-<table>
-   <tbody>
-      <tr>
-         <td style="text-align: left; font-style: italic;">Fugatto</td>
-         <td style="text-align: left"><audio controls style="width: 150px;"><source src="54334_Csharp_4_minor_9_7_down_down_down_up_0.wav" type="audio/wav"></audio></td>         
-         <td style="text-align: left"><audio controls style="width: 150px;"><source src="3207_C_4_major_7_4_up_down_down_down_0.wav" type="audio/wav"></audio></td>
-         <td style="text-align: left"><audio controls style="width: 150px;"><source src="14514_C_4_minor_4_11_up_up_down_up_0.wav" type="audio/wav"></audio></td>           
-         <td style="text-align: left"><audio controls style="width: 150px;"><source src="26540_C_4_blues_3_6_down_down_up_up_0.wav" type="audio/wav"></audio></td>    
-      </tr>        
-      <tr>
-         <td style="text-align: left">Audio Context</td>
-         <td style="text-align: left"><audio controls style="width: 150px;"><source src="54334_transposed.wav" type="audio/wav"></audio></td>
-         <td style="text-align: left"><audio controls style="width: 150px;"><source src="3207_transposed.wav" type="audio/wav"></audio></td>
-         <td style="text-align: left"><audio controls style="width: 150px;"><source src="14514_transposed.wav" type="audio/wav"></audio></td>
-         <td style="text-align: left"><audio controls style="width: 150px;"><source src="26540_transposed.wav" type="audio/wav"></audio></td>
-      </tr>
-   </tbody>   
-</table> 
-
 [ComposableART and Text-To-Audio(TTA)]
 
 This sections provides a collection of emergent sounds achieved with our proposed ComposeableART method, that enables the interpolation, in the latent space, between instructions.
@@ -236,6 +213,89 @@ This sections provides a collection of emergent sounds achieved with our propose
    </tbody>
 </table>
 
+## Emergent Tasks
+
+
+[Speech Prompted Singing Voice Synthesis (Audio-Transformation)]
+
+This section provides a collection of examples to showcase _Fugatto_'s ability to perform speech prompted Singing Voice Synthesis, even though it was never trained on this task. A possible explanation for this emergent ability is the model's ability to interpolate between tasks seen during trying, i.e.  (TTS given a speech prompt and SVS given a textual voice description)
+<table>
+   <tbody>
+      <tr>
+         <td style="text-align: left; font-style: italic;">Fugatto</td>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="mcat-inst-emergent-svs-with-speech-singing-3.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="mcat-inst-emergent-svs-with-speech-singing-4.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="mcat-inst-emergent-svs-with-speech-singing-1.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="mcat-inst-emergent-svs-with-speech-singing-2.wav" type="audio/wav"></audio></td>
+      </tr>        
+      <tr>
+         <td style="text-align: left">Audio Context</td>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="mcat-inst-emergent-svs-with-speech-prompt-3.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="mcat-inst-emergent-svs-with-speech-prompt-4.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="mcat-inst-emergent-svs-with-speech-prompt-1.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="mcat-inst-emergent-svs-with-speech-prompt-2.wav" type="audio/wav"></audio></td>
+      </tr>
+   </tbody>   
+</table> 
+
+
+[Melody Prompted Singing Voice Synthesis (SVS) and Text-To-Audio (TTA)]
+
+This section provides a collection of examples to showcase Fugatto's ability to perform SVS and TTA when prompted with a melody, even though it was never trained on this task. A possible explanation for this emergent ability is the model's ability to  interpolate between tasks seen during trying, i.e. TTA given descriptions, SVS given a textual voice description and MIDI2AUDIO.
+
+
+MIDI Melody (Audio Context)
+
+<audio controls style="width: 150px;"><source src="54334_transposed.wav" type="audio/wav"></audio></td>
+
+<table style="width: 100%; table-layout: fixed;">
+   <thead>
+      <tr>
+         <th style="text-align: left; font-style: italic;">Fugatto</th>
+         <th style="text-align: left">Instruction</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="2-midi2audio-female-opera-pop-scat-singing.wav" type="audio/wav"></audio></td>
+          <td style="text-align: left">Turn this MIDI melody into a female voice, operatic scat singing style given context:</td>
+      </tr> 
+      <tr>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="2-midi2audio-female-rock-pop-scat-singing.wav" type="audio/wav"></audio></td>
+          <td style="text-align: left">Turn this MIDI melody into a female voice, rock pop singing style given context:</td>
+      </tr> 
+      <tr>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="3-midi2audio-female-opera-singing-with-lyrics(0).wav" type="audio/wav"></audio></td>
+          <td style="text-align: left">Turn this MIDI melody into a female voice, operatic singing style with the lyrics:"Let me sing this song\nOh oh oh oh oh oh" given context:</td>
+      </tr> 
+      <tr>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="deeprumblingbass-2024-11-07.wav" type="audio/wav"></audio></td>
+          <td style="text-align: left">Synthesize Deep, rumbling bass pulses paired with intermittent, high-pitched digital chirps, like the sound of a massive, sentient machine waking up given context:</td>
+      </tr>                   
+   </tbody>   
+</table>       
+      
+[MIDI-2-Audio (Audio-Transformation)]
+
+This section provides a collection of examples to showcase _Fugatto_'s ability to convert from MIDI audio to natural Audio. We emphasize that this is zero-shot behavior and emergent capability, given that Fugatto has never seen monophonic melodies during MIDI2Audio training, with the average number of stems present in training this task being 8.
+<table>
+   <tbody>
+      <tr>
+         <td style="text-align: left; font-style: italic;">Fugatto</td>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="54334_Csharp_4_minor_9_7_down_down_down_up_0.wav" type="audio/wav"></audio></td>         
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="3207_C_4_major_7_4_up_down_down_down_0.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="14514_C_4_minor_4_11_up_up_down_up_0.wav" type="audio/wav"></audio></td>           
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="26540_C_4_blues_3_6_down_down_up_up_0.wav" type="audio/wav"></audio></td>    
+      </tr>        
+      <tr>
+         <td style="text-align: left">Audio Context</td>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="54334_transposed.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="3207_transposed.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="14514_transposed.wav" type="audio/wav"></audio></td>
+         <td style="text-align: left"><audio controls style="width: 150px;"><source src="26540_transposed.wav" type="audio/wav"></audio></td>
+      </tr>
+   </tbody>   
+</table> 
 
 ## ComposableART (Composable Audio Representation Transformations)
 ComposableART is a technique for compositonal synthesis where we extend the Classifier Free Guidance framework to support the combination of vector fields across
