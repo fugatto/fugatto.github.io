@@ -246,7 +246,7 @@ This section provides a collection of examples to showcase Fugatto's ability to 
 
 MIDI Melody (Audio Context)
 
-<audio controls style="width: 150px;"><source src="54334_transposed.wav" type="audio/wav"></audio></td>
+<audio controls style="width: 150px;"><source src="54334_transposed.wav" type="audio/wav"></audio>
 
 <table style="width: 100%; table-layout: fixed;">
    <thead>
