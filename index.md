@@ -332,6 +332,15 @@ Each plot shows the CLAP score for each instruction, or event, given the weight 
 </div><br>
 
 
+**Plots with CLAP Scores computed with a 2 second window with 1 second overlap for the Temporal Interpolation events with ComposableART**<br>
+
+Each plot shows the CLAP score for each instruction, or event, over time
+
+<div style="overflow: scroll; width: 100%; height: 500px; border: 1px solid #ccc;">
+  <img src="composeableart_temporal_interpolation.png" style="transform: scale(3); transform-origin: top left;" alt="Zoomed Image">
+</div><br>
+
+
 **2. Negation**<br>
 [Text-To-Speech (TTS)]
 
